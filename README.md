@@ -237,9 +237,22 @@ Click on the link to view the boilerplate site.
 
 * * *
 
-~~~ yaml
----
-title: "Macdown is my friend"  
-date: 2014-06-06 20:00:00
----
-~~~
+### Summary
+
+- We made a boilerplate jekyll site
+- We run the site locally
+- We made a local repository for our site
+- We connected our local repository to GitHub 
+- We forked the site to gh-pages
+
+* * *
+
+### Epilogue
+
+By way of finishing up, I do not recal whether the `jekyll new blog` boilerplate site includes a README.md file. It may be that this was added by me when editing the boilerplate. In any event we created a blank README.md file which formed part of the first remote commit. 
+
+The README.md file was then editied locally. We then ran  `git commit -am 'second commit'` to add the changes to the staging area and make our second (local) commit. 
+
+Our next task, was to repeat this update for the remote GitHub repository.To do this we need to run `git push [alias] [branch]` ( see: [http://gitref.org/remotes/](http://gitref.org/remotes/) ).
+
+We now need to make a further (third) commit to include this epilogue.
